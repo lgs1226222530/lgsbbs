@@ -8,7 +8,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'LgsBBS') - LGS论坛</title>
+    <title>@yield('title', 'LGSBBS') - LGS论坛</title>
+    <meta name="description" content="@yield('description', 'LGS论坛')" />
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
